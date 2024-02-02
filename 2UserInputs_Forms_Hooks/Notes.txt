@@ -1,0 +1,13 @@
+02-02-2024
+To get things out from any form we can have onChange function which will just call handleChange method and there we can write our required function 
+If any of the function return jsx by default it will be a component 
+useRef mein koi bhi change karne par kabhi re rendering nahi hoti hai jabki useState mein change hone par re rendering hoti hai 
+form ka ek default behavior hota hai after clicking on submit to get reloaded so for preventing this we do event.preventDefault(); 
+simple agar form se koi chiz nikalni hai to onChange mein event se ek function call karo aur uske andar event ko target karo 
+This is all about forms 
+
+React mein har ek component ki lifecycle hoti hai ki kab vo load ho ra hai kab vo jaa ra hai that process is called as mounting and unmounting
+UseEffect - jiske bhi aage use likha hai vo ek hook hai basically isme ek array hota hai jisme elements, components ke update hone par ye baar baar update hote rehta hai 
+ek array mein hum multiple elements(variable) pass kar sakte hai, aur agar hum iske andar array pass naahi karte hai then jab jab rendering ya mounting ho rahi hogi tab tab ye update hote rahega 
+React.strictMode() - isse jitni bhi warnings aa rahi hoti hai vo dikhti hai ise hatane mein hum warning ko ignore kar dete hai 
+normal function jo ki jsx vagera return nahi kar ra hai usse kabhi hooks ko call nahi karte hai 

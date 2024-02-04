@@ -1,0 +1,12 @@
+React routing mein hum dusri webpages par navigate kar sakte hai, apni websites par hi different sections mein route kar sakte hai 
+kuch pages aise hote hai jo hume login karne par hi dikhte hai protected routes 
+npm install react-router-dom 
+React ke andar page handling app reload karke uske andar compnenets ko load karte hai 
+BrowserRoute is that library which is used for navigation and routing and we do define some paths for it
+Routes is the conductor of our route whenever we have one or more routes we do use routes as parent 
+saare routes ko app.js mein define kar dete hai components banakar 
+hreff se bhi aise kar sakte hai but usme pura page load karoge tum naki ek component nav tag ka use karke ul and li ki help se hum Link to ka use kar sakte hai 
+kuch path mein hamari address partially constant hoti hai aur kuch change hote rehta hai jaise userId vagera to uske liye hum /:userid aise likhte hai : ka matlab hai ye iska part nahi hai 
+useparams() - react router dom ki ek library jo ki hame saare paramters ka access de deti hai components mein
+I can pass as many routes inside a route itself 
+Outlet basically apne parent ko batata hai ki apne child ko kaha return karna hai 

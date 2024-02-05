@@ -1,0 +1,12 @@
+jab bhi hume koi bhi data child ko pass karna hota hai to hum props ka use karte hai aur vo ek hirerichal 
+level mein jata hai sam foor recieving the data from child, so it makes hard to get agai and again and here comes redux in the picture 
+Redux provides a store as a solution. A store is a place where you can store all your application state together 
+isse kisi component ko koi issue nahi hoti hai vo keval state ko answer karta hai vice versa
+npm i @reduxjs/toolkit react-redux 
+store have different slices to store messages of different types 
+reducers ka kaam hota hai state ko update karna based upon the action passed 
+action.payload ke andar data pass karna hota hai 
+provider before app in index.js with configuring the store 
+useDispatch is used to dispatch the state data 
+redux dev tool extension download 
+createSlices() creates two things for us reducers(register with store) and actions(export only)

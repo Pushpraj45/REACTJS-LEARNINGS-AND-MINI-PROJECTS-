@@ -1,0 +1,13 @@
+we will make mini project with reduc then will be learning about reduxthunk
+basically we are making an e-commerce webpage with some styling search for any API for which you want to create webpage vagera fake api are there in google 
+reducer sabko combine karke store mein send kar deta hai we do use majority of time action.payload and basic events dispatch to do things whenever we are going to do something to anything 
+jo bhi asynchronity hai vo store ke bahar hone chahiye that's why we use reduxthunk 
+async middleware for redux is reduxthunk 
+slices ek baar hi banate hai phir unhe hi change karte rehte hai uske baad jo bhi changes karna hai state mein karte hai 
+redux toolkit's configurestore function setus up the thunk middleware by default, and it is recommonded using thunks as the standard approach for writing async logic with redux
+we can createAsyncThunk function and move our logic to this thing 
+Asycnc -> Thunk(internet) ->data to Reducer -> store 
+status have four stages idle, loading, success, failed
+sometime reduxthunk will not be able to send data so we have to write all three stages of the promise pending, fulfilled, rejected in extraReducers
+we can make components and can load them there 
+ 
